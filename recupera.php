@@ -3,7 +3,7 @@
     include('controlador.php');
     session_start();
 
-    $email = $_POST['email'];
+
     $password = $_POST['password'];
     
     if (isset($_POST['busca'])) {
